@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +11,19 @@ namespace ClassesAndObjects
         public string title;
         public string name;
         public int pages;
+
+        //Parameter with no arguments
+        public Book()
+        {
+
+        }
+
+        //Parameter with arguments
+        public Book(string aTitle, string aName, int aPages)
+        {
+            title = aTitle;
+            name = aName;
+            pages = aPages;
+        }
     }
 }
